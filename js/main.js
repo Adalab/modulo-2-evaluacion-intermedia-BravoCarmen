@@ -53,7 +53,7 @@ console.log(valueComputer);
         }else if(valueComputer === "Tijera"){
         textResult.innerHTML = "Perdiste";
         }else {
-        textResult.innerHTML = "¡Empate!";
+        textResult.innerHTML = "¡Ganaste!";
         }
     } else if (valueGamer === "Tijera"){
         if (valueComputer === "Papel"){
@@ -61,7 +61,7 @@ console.log(valueComputer);
         }else if(valueComputer === "Tijera"){
         textResult.innerHTML = "Empate";
         }else {
-        textResult.innerHTML = "¡Ganaste!";
+        textResult.innerHTML = "¡Perdiste!";
     }
 }
 }
